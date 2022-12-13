@@ -1,0 +1,28 @@
+[2022-11-14T20:34:12.476] [ERROR] default - 14/11/2022: Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
+[2022-11-14T20:34:39.432] [ERROR] default - 14/11/2022: Error en el servidor -> Error: listen EADDRINUSE: address already in use :::8080
+[2022-12-12T16:34:05.959] [ERROR] default - Error: Ha ocurrido un problema al obtener los productos
+    at getProducts (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/PreEntregas/3raPreentrega/src/services/inicial.service.js:24:15)
+    at getLoginInfo (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/PreEntregas/3raPreentrega/src/controllers/initial.controllers.js:14:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2022-12-12T16:52:06.454] [ERROR] default - ReferenceError: res is not defined
+    at loginPage (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/PreEntregas/3raPreentrega/src/controllers/initial.controllers.js:25:9)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\index.js:280:10)
+    at strategy.pass (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\passport\lib\middleware\authenticate.js:346:9)
+    at SessionStrategy.authenticate (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\passport\lib\strategies\session.js:75:10)
+[2022-12-12T20:27:37.434] [ERROR] default - ReferenceError: hashPassGenerator is not defined
+    at registerCredentials (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/15-EntregaCapas/src/controllers/initial.controllers.js:62:19)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\index.js:280:10)
+    at strategy.pass (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\passport\lib\middleware\authenticate.js:346:9)
+    at SessionStrategy.authenticate (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\passport\lib\strategies\session.js:75:10)
